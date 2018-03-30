@@ -1,6 +1,6 @@
 FROM hpzrathi/0d94f68b2855
 ADD index.html /var/www/html
-sudo apachectl -D  FOREGROUND
+CMD apachectl -D  FOREGROUND
 
 
 
